@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>Register</title>
+<link rel="stylesheet" type="text/css" href="images/css/Register.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4b55ca75d2.js" crossorigin="anonymous"></script>
+    <script src="E:\Html Project\images\css\district.js"></script>
+     </head>
+<body>
+<section class="header">
+    <nav>
+        <a href="Helping%20Hand.HTML">
+<img src="images/15.png">
+        </a>
+        <div class="nav-links">
+<ul>
+    <li class="active"><a href="Helping%20Hand.HTML">HOME</a></li>
+<li><a href="Gallery.htm">GALLERY</a><li>
+<li><a href="Contact.html">CONTACT</a><li>
+</ul>
+</div>
+</nav>
+    <div class="text-box">
+        <h1>Register Now</h1>
+    </div>
+        </section>
+    <!--------Form-------->
+    <section class="register">
+<h1><b>Register Your Complaint</b></h1><br>
+<form class="form" action="Registered.htm" method="POST">
+    <label>First Name:</label>
+<br>
+<input type="text" name="fname" id="name" placeholder="Enter your First Name" value=""required/>
+<br><br>
+<label>Last Name:</label>
+<br>
+<input type="text" name="lname" id="name" placeholder="Enter your Last Name" value=""required/>
+<br><br>
+<label>Your Age:</label>
+<br>
+<input type="number" name="age" id="name" placeholder="How old are you?" value=""required/>
+<br><br>
+<label>Email:</label>
+<br>
+<input type="email" id="name" placeholder="Enter Your Valid Email" value=""required/>
+<br><br>
+<label>Type of Complaint</label>
+<select id="">
+<option value=""required>Select Type</option>
+<option value="social">Social Problem</option>
+<option value="personal">Personal Problem</option>
+<option value="public">Public Inconvenience </option>
+</select>
+<br><br>
+<div id="name">
+    <label for="inputstate">State</label>
+    <select class="state">
+                        <option value=""required>Select State</option>
+                        <option value="Andra Pradesh">Andra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madya Pradesh">Madya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Orissa">Orissa</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttaranchal">Uttaranchal</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="West Bengal">West Bengal</option>
+                        <option disabled style="background-color:#aaa; color:#fff">UNION Territories</option>
+                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Lakshadeep">Lakshadeep</option>
+                        <option value="Pondicherry">Pondicherry</option>
+                      </select>
+  </div><br>
+  <div class="form-group col-md-4">
+    <label for="inputdistrict">District</label>
+    <select class="form-control" id="inputdistrict">
+        <option value="">-- Select District -- </option>
+    </select>
+  </div>
+    <br>
+<label>Past How Much Time:</label>
+<br>
+<input type="date" name="fname" id="name" placeholder="Enter Date" value=""required/>
+<br><br>
+<label>Brief About The Situation:</label>
+<br>
+<textarea id="name" rows="8" cols="80" placeholder="Brief Here...." value=""required>
+</textarea>
+<br><br>
+<label for="img">Image/Video Upload:</label>
+<br>
+<input type="file" id="img" name="img" accept="image/*|video/*">
+<br><br>
+    <!--------Gender------->
+<label>Gender:</label>
+<br>
+&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" id="male" class="radio">
+&nbsp;
+<span id="male">Male</span>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" id="female" class="radio">
+&nbsp;
+<span id="female">Female</span>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" id="prefer" class="radio">
+&nbsp;
+<span id="prefer">Prefer Not To Say</span>
+<br><br>
+    <input type="submit" value="Register" name="submit" id="submit">
+</form>
+</section>
+    <!-------Last part-------->
+    <section class="owner">
+        <p><b>“Helpers in every corner, helpers in every hood. That's how we'll make<br> the move, to reform from rude.”<br>
+― Abhijit Naskar</b></p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+        <p><b>This Site Is Designed By <u>Ayush Pratap Singh</u></b></p>
+    
+    </section>
+
+        </body>
+</html>
